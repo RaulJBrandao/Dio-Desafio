@@ -2,10 +2,8 @@
 title: UML Iphone
 ---
 classDiagram
-  Iphone --> reprodutorMusical
-  Iphone --> aparelhoTelefonico
-  Iphone --> navegadorInternet
-  reprodutorMusical : +tocar(): void
-  reprodutorMusical : +pausar(): void
-  reprodutorMusical : +selecionarMusica(String musica): void
-  reprodutorMusical : String musica
+    class BankAccount
+    BankAccount : +String owner
+    BankAccount : +Bigdecimal balance
+    BankAccount : +deposit(amount)
+    BankAccount : +withdrawal(amount)
