@@ -1,6 +1,22 @@
 classDiagram
-    class BankAccount
-    BankAccount : +String owner
-    BankAccount : +Bigdecimal balance
-    BankAccount : +deposit(amount)
-    BankAccount : +withdrawal(amount)
+    class ReprodutorMusical {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
+    }
+
+    class AparelhoTelefonico {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
+    }
+
+    class NavegadorInternet {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
+    }
+
+    class iPhone {
+    }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
