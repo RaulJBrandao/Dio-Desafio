@@ -1,5 +1,5 @@
 ## UML Iphone
-
+classDiagram
 Iphone --> reprodutorMusical
 Iphone --> aparelhoTelefonico
 Iphone --> navegadorInternet
