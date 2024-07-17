@@ -1,6 +1,3 @@
----
-title: UML Iphone
----
 classDiagram
     class BankAccount
     BankAccount : +String owner
